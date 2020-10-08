@@ -40,14 +40,15 @@ void draw()
       }
     }
   }
+  fill(0);
   textSize(20);
   text("you rolled " + sum + "!", 25, 320);
-  textSize(10);
+  textSize(15);
   text("times 1 appeared: " + ones, 25, 345);
-  text("times 2 appeared: " + twos, 160, 345);
+  text("times 2 appeared: " + twos, 155, 345);
   text("times 3 appeared: " + threes, 285, 345);
   text("times 4 appeared: " + fours, 25, 375);
-  text("times 5 appeared: " + fives, 160, 375);
+  text("times 5 appeared: " + fives, 155, 375);
   text("times 6 appeared: " + sixes, 285, 375);
 }
 void mousePressed()
