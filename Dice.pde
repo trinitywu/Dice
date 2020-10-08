@@ -43,7 +43,7 @@ void draw()
   fill(0);
   textSize(20);
   text("you rolled " + sum + "!", 25, 320);
-  textSize(15);
+  textSize(10);
   text("times 1 appeared: " + ones, 25, 345);
   text("times 2 appeared: " + twos, 155, 345);
   text("times 3 appeared: " + threes, 285, 345);
