@@ -40,7 +40,7 @@ void draw()
       }
     }
   }
-  fill(0);
+  fill(220, 224, 32);
   textSize(20);
   text("you rolled " + sum + "!", 25, 320);
   textSize(10);
